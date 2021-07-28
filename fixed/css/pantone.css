@@ -1,0 +1,604 @@
+@font-face {
+	font-family: 'Cabin', sans-serif;
+	src: url('../assets/fonts/Cabin/static/Cabin/Cabin-SemiBold.ttf');
+}
+
+.fa {
+padding:15px;
+text-align: left;
+margin: 5px 2px;
+font-size: 10px;
+width: 45px;
+height: 30px;
+}
+
+.fa-facebook{
+color: white
+}
+
+.fa-twitter{
+color: white
+}
+
+.fa-instagram {
+color: white
+}
+
+.fa-youtube {
+color: white
+}
+
+.fa-linkedin {
+color: white
+}
+.main-container {
+position: relative;
+color: white;
+font-family: 'Cabin', sans-serif;
+background-image: url("../assets/images/slide.jpg");
+height: 1080px;
+}
+
+#cus-navbar {
+
+height: 50px;
+width: 1000px;
+margin: auto;
+padding-top: 25px;
+}
+
+#cus-navbar > div {
+margin-bottom: 5px;
+width: 32%;
+display: inline-block;
+}
+
+#cus-navbar > div:nth-child(2) {
+text-align: center;
+}
+
+#cus-navbar > div:nth-child(3) {
+text-align: right;
+}
+
+  
+.centered {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+width: 800px;
+height: 300px;
+}
+
+#slide {
+width: 100%;
+
+   
+}
+#infodiv {
+         
+width: 400px;   
+height: 300px;
+float:left;
+}
+
+#playbutton {
+
+width: 400px;
+height: 300px;
+float: right;
+}
+
+#arrow {
+height: 50px;
+font-family: 'Cabin', sans-serif;
+
+}
+
+#content {
+height: 200px;
+font-size: 50px;
+font-family: 'Cabin', sans-serif;
+}
+
+#link {
+height: 50px;
+}
+
+.link {
+height: 50px;
+width: 175px;
+display: inline-block;
+font-size: 14px;
+font-family: 'Cabin', sans-serif;
+}
+
+#button {
+width: 50px;
+height: 50px;
+float: right;
+margin-top: 50px;
+}
+
+.bg-grey {
+background: #292929;
+}
+
+.logo-footer {
+margin-bottom: 40px;
+}
+
+footer {
+color: white;
+}
+
+footer p, a {
+font-size: 12px;
+font-family: 'Cabin', sans-serif;
+}
+footer h6 {
+font-family: 'Cabin', sans-serif;
+margin-bottom: 40px;
+position: relative;
+}
+footer h6:after {
+position: absolute;
+content: "";
+background: grey;
+width: 12%;
+height: 1px;
+left: 0;
+bottom: -20px;
+}
+ .btn-footer {
+color:white;
+text-decoration: none;
+border: 1px solid;
+border-radius: 43px;
+font-size: 18px;
+padding: 7px 30px;
+line-height: 50px;
+ }
+ .btn-footer:hover {
+text-decoration: none;
+		   
+ }
+ 
+footer ul li {
+list-style: none;
+display: block;
+font-family: 'Cabin', sans-serif;
+}
+footer ul  {
+padding-left: 0;
+}
+footer ul  li a{
+text-decoration: none;
+color: white;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
+color: #f5f5f5 !important;
+
+}
+.logo-part {
+border-right: 1px solid grey;
+width: 100%;
+float: right;
+}
+
+.section{
+	margin: 30px 0;
+}
+.section-1-left{
+	background-image: url("../assets/images/sec1-img1.jpg");
+	height: 300px;
+    max-width: 200px;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 50px 0 0 30px;
+    float: left;
+}
+.s1-ileri{
+	font-family: 'Cabin', sans-serif;
+	color: red;
+}
+.head-bold{
+	font-size: 1.5rem;
+    font-weight: bold;
+	color: rgb(29, 29, 29);
+	font-family: 'Cabin', sans-serif;
+}
+.mtb50{
+	margin: 50px 0;
+}
+.justify{
+	text-align: justify;
+}
+.t12gray{
+	font-size: 12px;
+    color: gray;
+	font-family: 'Cabin', sans-serif;
+}
+.sec1-mery1{
+	max-width: 80px;
+	color: #000;
+	font-family: 'Cabin', sans-serif;
+}
+.pbold13{
+	font-size: 18px;
+    font-weight: bold;
+	font-family: 'Cabin', sans-serif;
+}
+
+.swiper-container {
+	width: 100%;
+	height: 100%;
+}
+.swiper-slide {
+	
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+	width: 100px !important;
+	font-family: 'Cabin', sans-serif;
+	
+  border-radius: 10px;
+}
+.swiper-slide:nth-child(1) {
+  background: #264653;
+}
+.swiper-slide:nth-child(2) {
+  background: #2a9d8f;
+}
+.swiper-slide:nth-child(3) {
+  background: #e9c46a;
+}
+.swiper-slide:nth-child(4) {
+  background: #f4a261;
+}
+.swiper-slide:nth-child(5) {
+  background: #e76f51;
+}
+.mySwiper{
+	width: 700px;
+}
+.box{
+	width: 100px;
+    height: 100px;
+    border-radius: 10px;
+	padding: 15px;
+    color: #fff;
+    font-weight: 700;
+}
+.w50r{
+	width: 50px;
+    float: right;
+}
+.ml-200{
+	margin-left: -100px;
+}
+.mb10{
+	margin-bottom: 10px !important;
+	
+}
+.f10un{
+	font-size: 10px;
+	text-decoration: underline;
+}
+.pd5{
+	padding: 5px;
+}
+.btn-order{
+	background: #e30613;
+    width: 210px;
+    height: 150px;
+    border-radius: 15px;
+    position: absolute;
+    top: 140%;
+    right: 32%;
+}
+.cat-col{
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 15px;
+	font-family: 'Cabin', sans-serif;
+}
+.cat-col-2{
+	padding: 0 0 18px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+	font-family: 'Cabin', sans-serif;
+}
+.follow-order{
+	font-size: 1.5em;
+    font-weight: 700;
+    color: #fff;
+    padding: 5px 0 0 20px;
+	font-family: 'Cabin', sans-serif;
+}
+.rotate{
+	margin-top: 20px;
+	transform: rotate(75deg);
+	color: #fff;
+}
+.dot-load{
+	display: flex;
+	margin-top: -30px;
+	font-size: 70px;
+}
+.world{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0 50px;
+}
+.w-h{
+	margin: 20px 0;
+	padding: 0 180px;
+}
+.w-h h1{
+	font-size: 35px;
+    font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+	color: rgb(75, 73, 73);
+}
+.w-s{
+	margin: 10px 0;
+    padding: 0 300px;
+}
+.w-s p{
+	font-size: 15px;
+    color: gray;
+	font-family: 'Cabin', sans-serif;
+}
+.w-b{
+	margin: 80px 0 50px 0;
+}
+.w-b .row{
+	padding: 0 250px;
+}
+.w-b .col{
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.w-b-icon{
+	padding: 0 0 10px;
+	text-align: center;
+}
+.w-b-text{
+	padding: 5px 0;
+	font-size: 18px;
+    font-weight: bold;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+}
+.w-b-text2{
+	padding: 5px 0;
+    font-size: 15px;
+    font-weight: bold;
+    color: gray;
+	font-family: 'Cabin', sans-serif;
+	text-align: center;
+}
+.w-b-icon-cus{
+	border: 1px solid gray;
+    border-radius: 5px;
+    font-size: 25px;
+    color: gray;
+    transform: rotate(-90deg);
+}
+.w-b-icon-no-border{
+	font-size: 25px;
+    color: gray;
+}
+.section-bg {
+	overflow: hidden;
+	position: relative;
+	margin: 0 20px;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
+  }
+  
+  .map-bg {
+	opacity: 0.3;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 90%;
+    height: 300px;
+  }
+  
+  .map-content {
+	position: relative;
+  }
+
+  .footer2 {
+	  margin: 0 20px;
+  }
+  
+.footer-bg {
+    position: absolute;
+    height: 550px;
+  }
+
+.p50{
+	padding: 50px;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+}
+.bbg{
+	border-bottom: 1px solid #8080804d;
+}
+.sfbg{
+	background:rgb(0 0 0 / 13%);
+	height: 450px;
+	border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+	margin: 0 20px;
+}
+
+.sfbg2-content{
+	height: 550px;
+	border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+	margin: 0 20px;
+	position: relative;
+}
+.sf-head .title{
+	border-bottom: 1px solid #8080804d;
+	padding: 0 0 20px 0;
+}
+.pull-left{
+	float: left;
+}
+.ml20{
+	margin-left: 20px;
+}
+.green{
+	color: green;
+}
+.p-bold{
+	font-size: 18px;
+    font-weight: 600;
+    text-align: justify;
+	padding: 10px 0;
+	color: #313031;
+	font-family: 'Cabin', sans-serif;
+
+}
+.p-normal{
+	font-size: 16px;
+    color: gray;
+}
+.colorwhite{
+	color: #fff;
+	font-size: 17px;
+}
+.bulten{
+	font-size: 40px;
+    font-weight: 700;
+	font-family: 'Cabin', sans-serif;
+}
+.mlr80{
+	margin: 0 80px;
+}
+.social-icon{
+	display: flex;
+}
+.ml25{
+	margin-left: 65px;
+    padding: 35px 0;
+	color: #fff;
+	font-family: 'Cabin', sans-serif;
+}
+.fsize14{
+	font-size: 14px;
+	color: #fff;
+	padding: 5px 0;
+}
+.form-control {
+	color:#636f74;
+    background-color: #22333b;
+	text-decoration: none;
+	border: 1px solid;
+	border-radius: 43px;
+	font-size: 8px;
+	padding: 7px 30px;
+	line-height: 20px;
+	font-family: 'Cabin', sans-serif;
+}
+.row{
+	color: white;
+
+}
+.ulasin {
+	border-radius: 43px;
+    color: white;
+    background-color: rgb(114, 114, 114);
+    width: 120px;
+    height: 42px;
+	font-family: 'Cabin', sans-serif;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
